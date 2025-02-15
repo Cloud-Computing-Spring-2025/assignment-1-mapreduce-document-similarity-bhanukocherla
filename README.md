@@ -128,7 +128,7 @@ This will generate a JAR file inside the `target` directory.
 #### **Step 2: Copy the JAR File to the Hadoop Container**  
 Move the compiled JAR into the running Hadoop container:  
 ```sh
-docker cp target/similarity.jar hadoop-master:/opt/hadoop-3.2.1/share/hadoop/mapreduce/similarity.jar
+docker cp target//workspaces/assignment-1-mapreduce-document-similarity-bhanukocherla/src/main/java/com/example/controller/DocumentSimilarityDriver.java hadoop-master:/opt/hadoop-3.2.1/share/hadoop/mapreduce/similarity.jar
 ```
 
 ---
